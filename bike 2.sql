@@ -15,7 +15,7 @@ end) as wakacje
 from trip t 
 order by start_date;
 
--- trasy top 10 i iloúci
+-- trasy top 10 i ilo≈ìci
 
 select 
 distinct (start_station_name),
@@ -32,10 +32,10 @@ where start_station_name = end_station_name
 
 
 
--- the best trasy i iloúci dla customer
+-- the best trasy i ilo≈ìci dla customer
 (
 select 
-'1. The best z ca≥oúci' as info,
+'1. The best z ca¬≥o≈ìci' as info,
 start_station_name,
 end_station_name,
 duration as czas,
@@ -136,7 +136,7 @@ limit 1
 -- the best trasy dla subscriber
 (
 select 
-'1. The best z ca≥oúci' as info,
+'1. The best z ca¬≥o≈ìci' as info,
 start_station_name,
 end_station_name,
 duration as czas,
@@ -234,7 +234,7 @@ order by  ilosc desc
 limit 1
 )
 
--- trasy worst 10  i iloúci dla Subscriber
+-- trasy worst 10  i ilo≈ìci dla Subscriber
 select 
 distinct start_station_name,
 end_station_name,
@@ -260,17 +260,3 @@ count(distinct subscription_type) l_typow,
 count(distinct zip_code) as l_kodow_poczt
 from trip
 
--- 
-select * from status s 
-where  
-
-
-
-
-
-
-
-
-
-
-select * from trip t 
