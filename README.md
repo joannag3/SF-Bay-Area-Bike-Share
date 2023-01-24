@@ -1,17 +1,17 @@
-SF Bay Area Bike Share
+**SF Bay Area Bike Share**
 
-Temat:
+**Temat:**
 
 Projekt obejmuje analizę bazy danych wypożyczalni rowerów w San Francisco za pomocą języka zapytań SQL.
 
-Cel:
+**Cel:**
 
 Celem jest odczytanie jak największej ilości wniosków i danych z bazy danych.
 
-Dane:
+**Dane:**
 
-Wypożyczalnia rowerów SF Bay Area Bike Share udostępnia 70 stanowisk z rowerami w 5- ciu miastach.
-Najwięcej stanowisk z rowerami znajduje się w San Francisco.
+Wypożyczalnia rowerów SF Bay Area Bike Share udostępnia 70 stanowisk z rowerami w 5- ciu miastach.  
+Najwięcej stanowisk z rowerami znajduje się w San Francisco.  
 Łączna ilość wypożyczeń sięga 336 789. 
 Minimalny czas przejazdu wyniósł 1 minutę, maksymalny - 12 037 minut, a średni prawie 17 minut, biorąc pod uwagę wszystkie dane.
 Minimalny czas przejazdu w ciągu tej samej doby wyniósł 1 minutę, maksymalny - 1390 minut, a średni - przeszło 13 minut.
@@ -26,7 +26,7 @@ Dane:
 Przeważającym typem klientów w SF są klienci abonamentowi, w pozostałych miastach są to klienci indywidualni.
 Najpopulatniejszą trasą jest trasa ze stacji Townsend at 7th do stacji San Francisco Caltrain (Townsend at 4th).
 
-Wnioski:
+**Wnioski:**
 
 Zdecydowana większość wypożyczeń rowerów ma różne stacje początkowe i końcowe, co może nasuwać wnioski, że są to wypożyczenia na potrzeby turystyczne, a nie dojazdu do pracy. 
 Krótki czas przejazdu (do 10 min) przez klientów abonamentowych może wskazywać na to, że dojeżdżają oni rowerami do pracy.
